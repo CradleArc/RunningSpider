@@ -6,10 +6,16 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="3">
+          <list size="9">
             <item index="0" class="java.lang.String" itemvalue="pymysql" />
             <item index="1" class="java.lang.String" itemvalue="selenium" />
             <item index="2" class="java.lang.String" itemvalue="pyquery" />
+            <item index="3" class="java.lang.String" itemvalue="paddle" />
+            <item index="4" class="java.lang.String" itemvalue="scipy" />
+            <item index="5" class="java.lang.String" itemvalue="numpy" />
+            <item index="6" class="java.lang.String" itemvalue="pandas" />
+            <item index="7" class="java.lang.String" itemvalue="tqdm" />
+            <item index="8" class="java.lang.String" itemvalue="visualdl" />
           </list>
         </value>
       </option>
@@ -22,6 +28,8 @@
           <option value="E302" />
           <option value="W191" />
           <option value="E101" />
+          <option value="E265" />
+          <option value="E731" />
         </list>
       </option>
     </inspection_tool>
